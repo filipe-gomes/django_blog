@@ -5,10 +5,10 @@ This is a simple blog created with the Django framework for Python. It is divide
 ## Built With
 
 * [Python 3.7.0](https://www.python.org/) - Main programming language
-* [Django] (https://www.djangoproject.com/) - Web Framework used for this project
-* [HTML5] (https://www.w3.org/html/) - Used for building HTML pages 
-* [Bootstrap 4] (https://getbootstrap.com) - Helping pages look beautiful
-* [CSS] (https://www.w3.org/Style/CSS/Overview.en.html) - Used for adding styles
+* [Django](https://www.djangoproject.com/) - Web Framework used for this project
+* [HTML5](https://www.w3.org/html/) - Used for building HTML pages 
+* [Bootstrap 4](https://getbootstrap.com) - Helping pages look beautiful
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - Used for adding styles
 
 ## Author
 
