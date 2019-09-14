@@ -12,7 +12,7 @@ This is a simple blog created with the Django framework for Python. It is divide
 
 ## Author
 
-* **Filipe Gomes** - [Ulubulu1](https://https://github.com/ulubulu1)
+* **Filipe Gomes** - [filipe-gomes](https://https://github.com/filipe-gomes)
 
 ## License
 
