@@ -2,6 +2,25 @@
 
 This is a simple blog created with the Django framework for Python. It is divided in modular apps that can be used in different projects, but were originally created as part of this project.
 
+## Get Started
+* Install Dependencies
+```
+pip install -r requirements.txt
+```
+* Set Database
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+* Create SuperUser
+```
+python manage.py createsuperuser
+```
+* Start Development Server
+```
+python manage.py runserver
+```
+
 ## Built With
 
 * [Python 3.7.0](https://www.python.org/) - Main programming language
