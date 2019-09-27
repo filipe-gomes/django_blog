@@ -2,7 +2,7 @@
 
 This is a simple blog created with the Django framework for Python. It is divided in modular apps that can be used in different projects, but were originally created as part of this project.
 
-## Get Started
+## Getting Started
 Install Dependencies
 ```
 pip install -r requirements.txt
