@@ -117,3 +117,7 @@ a.article-title:hover {
     color:rgb(70, 199, 167);
     border-color: rgb(70, 199, 167);
 }
+
+.username-link {
+    color: rgb(70, 199, 167);
+}
