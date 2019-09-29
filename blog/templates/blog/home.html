@@ -1,5 +1,5 @@
 {% extends "blog/base.html" %} 
-{% block content %} 
+{% block content %}
     {% for post in posts %}
         <article class="media content-section">
             <img class="rounded-circle article-img" src="{{ post.author.profile.image.url }}">
@@ -13,36 +13,6 @@
             </div>
         </article>
     {% endfor %}
-    <style>
-        .btn-default
-        {
-        background-color: rgb(70, 199, 167);
-        color:#ffffff;
-        border-color: rgb(70, 199, 167);
-        }
-
-        .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default 
-        {
-        background-color: #ffffff;
-        color:rgb(70, 199, 167);
-        border-color: rgb(70, 199, 167);
-        }
-
-        .btn-outline-default
-        {
-        background-color: rgb(70, 199, 167);
-        color:#ffffff;
-        border-color: rgb(70, 199, 167);
-        }
-
-        .btn-outline-default:hover, .btn-outline-default:focus, .btn-outline-default:active, .btn-outline-default.active, .open .dropdown-toggle.btn-outline-default 
-        {
-        background-color: #ffffff;
-        color:rgb(70, 199, 167);
-        border-color: rgb(70, 199, 167);
-        }
-
-    </style>
     {% if is_paginated %}
         {% if page_obj.has_previous %}
             <a class="btn btn-outline-default mb-4" href="?page=1">First</a>
@@ -50,7 +20,7 @@
         {% endif %}
         {% for num in page_obj.paginator.page_range %}
             {% if page_obj.number == num %}
-                <a class="btn btn-default mb-4" href="?page={{ num }}">{{ num }}</a>
+                <a class="btn btn-default btn-selected mb-4" href="?page={{ num }}">{{ num }}</a>
             {% elif num > page_obj.number|add:'-3' and num < page_obj.number|add:'3' %}
                 <a class="btn btn-outline-default mb-4" href="?page={{ num }}">{{ num }}</a>
             {% endif %}

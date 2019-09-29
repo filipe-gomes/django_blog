@@ -87,3 +87,33 @@ a.article-title:hover {
 .account-heading {
     font-size: 2.5rem;
 }
+
+.btn-default {
+    background-color: rgb(70, 199, 167);
+    color:#ffffff;
+    border-color: rgb(70, 199, 167);
+} 
+
+.btn-default:hover {
+    background-color: #ffffff;
+    color:rgb(70, 199, 167);
+    border-color: rgb(70, 199, 167);
+}
+
+.btn-outline-default {
+    background-color: rgb(70, 199, 167);
+    color:#ffffff;
+    border-color: rgb(70, 199, 167);
+}
+
+.btn-outline-default:hover {
+    background-color: #ffffff;
+    color:rgb(70, 199, 167);
+    border-color: rgb(70, 199, 167);
+}
+
+.btn-selected {
+    background-color: #ffffff;
+    color:rgb(70, 199, 167);
+    border-color: rgb(70, 199, 167);
+}
