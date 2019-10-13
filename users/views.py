@@ -10,6 +10,8 @@ def register(request):
         if form.is_valid():
             form.save()
             username = form.cleaned_data.get('username')
+            firstname = form.cleaned_data.get('firstname')
+            lastname = form.cleaned_data.get('lastname')
             messages.success(request, f'Your account has been successfully created! You are now able to log in.')
             return redirect('login')
     else:
