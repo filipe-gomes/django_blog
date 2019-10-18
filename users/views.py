@@ -12,6 +12,7 @@ def register(request):
             username = form.cleaned_data.get('username')
             firstname = form.cleaned_data.get('firstname')
             lastname = form.cleaned_data.get('lastname')
+            twitter = form.cleaned_data.get('twitter')
             messages.success(request, f'Your account has been successfully created! You are now able to log in.')
             return redirect('login')
     else:
