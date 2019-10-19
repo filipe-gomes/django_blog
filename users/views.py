@@ -26,9 +26,14 @@ def profile(request):
         u_form = UserUpdateForm(request.POST, instance=request.user)
         p_form = ProfileUpdateForm(request.POST, request.FILES, instance=request.user.profile)
         if u_form.is_valid() and p_form.is_valid():
-            u_form.save()
-            p_form.save()
+            userdata = u_form.save(commit=False)
+            userdata.user = request.user
+            userdata.save()
+            profiledata = p_form.save(commit=False)
+            profiledata.profile = request.user.profile
+            profiledata.save()
             messages.success(request, f'Your account has been successfully updated!')
+
             return redirect('profile')
 
     else:

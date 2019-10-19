@@ -29,6 +29,8 @@ python manage.py runserver
 * [Bootstrap 4](https://getbootstrap.com) - Helping pages look beautiful
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - Used for adding styles
 
+Deployment coming soon.
+
 ## Author
 
 * **Filipe Gomes** - [filipe-gomes](https://https://github.com/filipe-gomes)
@@ -36,3 +38,4 @@ python manage.py runserver
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
