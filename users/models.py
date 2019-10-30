@@ -8,7 +8,7 @@ class Profile(models.Model):
     image = models.ImageField(default='default.jpeg', upload_to='profile_pics')
 
     def __str__(self):
-        return f"{self.user.firstname}'s Profile"
+        return f"{self.user.first_name}'s Profile"
 
     def save(self, *args, **kwargs):
         super().save(*args, **kwargs)
