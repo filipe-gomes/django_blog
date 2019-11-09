@@ -18,7 +18,7 @@ ul {
 }
 
 .bg-steel {
-    background-color: #8141fa;
+    background-color: rgb(70, 199, 167);
 }
 
 .site-header .navbar-nav .nav-link {
@@ -46,7 +46,7 @@ ul {
 }
 
 a.article-title:hover {
-    color: #8141fa;
+    color: rgb(70, 199, 167);
     text-decoration: none;
 }
 
@@ -89,35 +89,35 @@ a.article-title:hover {
 }
 
 .btn-default {
-    background-color: #8141fa;
+    background-color: rgb(70, 199, 167);
     color:#ffffff;
-    border-color: #8141fa;
+    border-color: rgb(70, 199, 167);
 } 
 
 .btn-default:hover {
     background-color: #ffffff;
-    color:#8141fa;
-    border-color: #8141fa;
+    color:rgb(70, 199, 167);
+    border-color: rgb(70, 199, 167);
 }
 
 .btn-outline-default {
-    background-color: #8141fa;
+    background-color: rgb(70, 199, 167);
     color:#ffffff;
-    border-color: #8141fa;
+    border-color: rgb(70, 199, 167);
 }
 
 .btn-outline-default:hover {
     background-color: #ffffff;
-    color:#8141fa;
-    border-color: #8141fa;
+    color:rgb(70, 199, 167);
+    border-color: rgb(70, 199, 167);
 }
 
 .btn-selected {
     background-color: #ffffff;
-    color:#8141fa;
-    border-color: #8141fa;
+    color:rgb(70, 199, 167);
+    border-color: rgb(70, 199, 167);
 }
 
 .username-link {
-    color: #8141fa;
+    color: rgb(70, 199, 167);
 }
