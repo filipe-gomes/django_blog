@@ -135,6 +135,13 @@ a.article-title:hover {
     background-color: #8141fa;
     color:#ffffff;
     border-color: #8141fa;
+}
+@media (prefers-color-scheme: dark) {
+    .btn-default {
+        background-color: #8141fa;
+        color:#333333;
+        border-color: #8141fa;
+    }
 } 
 
 .btn-default:hover {
@@ -142,11 +149,25 @@ a.article-title:hover {
     color:#8141fa;
     border-color: #8141fa;
 }
+@media (prefers-color-scheme: dark) {
+    .btn-default:hover {
+        background-color: #333333;
+        color:#8141fa;
+        border-color: #8141fa;
+    }
+}
 
 .btn-outline-default {
     background-color: #8141fa;
     color:#ffffff;
     border-color: #8141fa;
+}
+@media (prefers-color-scheme: dark) {
+    .btn-outline-default {
+        background-color: #8141fa;
+        color:#333333
+        border-color: #8141fa;
+    }
 }
 
 .btn-outline-default:hover {
