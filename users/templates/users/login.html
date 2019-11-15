@@ -6,7 +6,12 @@
             {% csrf_token %}
             <fieldset class="form-group">
                 <legend class="border-bottom mb-4">Log in</legend>
-                {{ form|crispy }}
+                <div class="login-box auth0-box before">
+                    <img src="https://i.cloudup.com/StzWWrY34s.png" />
+                    <h3>Auth0 Example</h3>
+                    <p>Zero friction identity infrastructure, built for developers</p>
+                    <a class="btn btn-primary btn-lg btn-login btn-block" href="/login/auth0">Log In</a>
+                </div>
             </fieldset>
             <div class="form-group">
                 <button class="btn btn-outline-info" type="submit">Log in</button>

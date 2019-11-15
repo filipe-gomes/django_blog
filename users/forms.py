@@ -15,12 +15,11 @@ class UserRegistrationForm(UserCreationForm):
 
 
 class UserUpdateForm(forms.ModelForm):
-    twitter = forms.URLField(max_length=100, required=False)
     email = forms.EmailField()
 
     class Meta:
         model = User
-        fields = ['first_name', 'last_name', 'username', 'twitter', 'email']
+        fields = ['first_name', 'last_name', 'username', 'email']
 
 
 class ProfileUpdateForm(forms.ModelForm):
