@@ -1,7 +1,6 @@
 # bloggr
 
-Visit us at https://bloggr.tech 
-bloggr is a platform for sharing thoughts and ideas, with a focus in tech, but not limited to it. Feel free to join us in this platform, and share anything that you may find interesting. I will be continuously working to improve this blog and add new features. Please reach out with any thoughts or concerns you may have as an user. Feel free to use the codebase as needed to build your version of bloggr, as well as contribute with pull requests and ideas for new features, as well as the reporting of any found issues.
+Visit us at https://bloggr.tech. bloggr is a platform for sharing thoughts and ideas, with a focus in tech, but not limited to it. Feel free to join us in this platform, and share anything that you may find interesting. I will be continuously working to improve this blog and add new features. Please reach out with any thoughts or concerns you may have as an user. Feel free to use the codebase as needed to build your version of bloggr, as well as contribute with pull requests and ideas for new features, as well as the reporting of any found issues.
 
 ## Getting Started with Contributing
 Install Dependencies
