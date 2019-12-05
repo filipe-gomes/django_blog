@@ -8,7 +8,7 @@ import json
 
 
 @login_required
-def dashboard(request):
+def bloghome(request):
     user = request.user
     auth0user = user.social_auth.get(provider='auth0')
     userdata = {
@@ -18,7 +18,7 @@ def dashboard(request):
         'email': auth0user.extra_data['email'],
     }
 
-    return render(request, 'dashboard.html', {
+    return render(request, 'blog-home', {
         'auth0User': auth0user,
         'userdata': json.dumps(userdata, indent=4)
     })
@@ -27,7 +27,7 @@ def dashboard(request):
 def index(request):
     user = request.user
     if user.is_authenticated:
-        return redirect(dashboard)
+        return redirect(bloghome)
     else:
         return render(request, 'index.html')
 

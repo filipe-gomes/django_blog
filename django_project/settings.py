@@ -109,10 +109,10 @@ SOCIAL_AUTH_AUTH0_SCOPE = [
     'email'
 ]
 
-# AUTHENTICATION_BACKENDS = {
-#     'bloggr.auth0backend.Auth0',
-#     'django.contrib.auth.backends.ModelBackend'
-# }
+AUTHENTICATION_BACKENDS = {
+    'bloggr.auth0backend.Auth0',
+    'django.contrib.auth.backends.ModelBackend'
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
@@ -140,7 +140,7 @@ MEDIA_URL = '/media/'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 LOGIN_URL = '/login/auth0'
-LOGIN_REDIRECT_URL = 'blog-home'
+LOGIN_REDIRECT_URL = 'bloghome'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
@@ -151,5 +151,5 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
 
 SOCIAL_AUTH_TRAILING_SLASH = False  # Remove trailing slash from routes
 SOCIAL_AUTH_AUTH0_DOMAIN = 'bloggr.auth0.com'
-SOCIAL_AUTH_AUTH0_KEY = 'YOUR_KEY'
-SOCIAL_AUTH_AUTH0_SECRET = 'YOUR_SECRET'
+SOCIAL_AUTH_AUTH0_KEY = 'yGmpQAPQ8K7cLsqDiYL889462Q1FkZdS'
+SOCIAL_AUTH_AUTH0_SECRET = 'R3bmH9qD_Pgb2h3KwlXk-mo8p4UQiwOsiRJaUrVpjOr6KjunFrbb8TxK06VcFnpd'
